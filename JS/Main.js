@@ -1,3 +1,17 @@
+// Hire
+let hireForm = document.querySelector('.login-container');
+let hireBtn = document.querySelector('.hire');
+let hireClose = document.querySelector('#form-close');
+hireBtn.addEventListener('click', () =>{
+    hireForm.classList.add('active1');
+});
+hireClose.addEventListener('click', () =>{
+    hireForm.classList.remove('active1');
+});
+
+
+
+
 // Stickybar
 const header = document.querySelector('header');
 window.addEventListener ('scroll', function() {
@@ -14,3 +28,5 @@ window.onscroll = () => {
     menu.classList.remove('fa-times');
     navList.classList.remove('active');
 }
+
+
