@@ -22,6 +22,8 @@ img{
     --main:#212429;
     --main0:#2D2F33;
     --main1:#377DFF;
+    --midnightblue:#0e2a47;
+    --dark:#071c33;
     --gradient:linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
     --gradient0:linear-gradient(to right, #141e30, #243b55);
     --gradient1:linear-gradient(95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64%);
@@ -324,6 +326,78 @@ section{
   margin-bottom:2rem;
 }
 /* About Me Ends */
+
+
+/* Hire Me */
+.login-container{
+    position: fixed;
+    top:-120%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    z-index: 1000;
+}
+.login-container.active1{
+    top: 0;
+}
+.login-container #form-close{
+    font-size:1.5rem;
+    position: absolute;
+    color: white;
+    top:3rem;
+    right:5rem;
+    cursor: pointer;
+}
+
+.login-container #form-close:hover{
+    color: var(--main-color);
+}
+.login-container .form-control{
+    width:35rem;
+    margin: 2rem;
+    padding: 1.5rem 2rem;
+    background-color: var(--midnightblue);
+    border-radius:.5rem;
+}
+.login-container .form-control h3{
+    text-align: center;
+    text-transform:capitalize;
+    color:white;
+    font-size: 2rem;
+    padding:.5rem 0;
+}
+.login-container .form-control .box{
+    width: 100%;
+    padding:1rem;
+    margin: 0.6rem 0;
+    border-radius: .5rem;
+    border: .01rem solid var(--dark);
+    color: white;
+    background-color: var(--dark);
+    text-transform: none;
+}
+.login-container .form-control .box:focus{
+    border:.01rem solid #74eb84;
+    transition: .5s ease-in;
+}
+.login-container .form-control .btn{
+    background-color: var(--main1);
+    border:none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.login-container .form-control .btn:hover{
+    background-color: #74eb84;
+    color: white;
+}
+
+
+
 
 /* Portfolio */
 .heading{
