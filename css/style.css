@@ -349,7 +349,7 @@ section{
     position: absolute;
     color: white;
     top:3rem;
-    right:5rem;
+    right:4rem;
     cursor: pointer;
 }
 
@@ -357,8 +357,7 @@ section{
     color: var(--main-color);
 }
 .login-container .form-control{
-    position:fixed;
-    width:35rem;
+    width:30rem;
     margin: 2rem;
     padding: 1.5rem 2rem;
     background-color: var(--midnightblue);
@@ -368,12 +367,12 @@ section{
     text-align: center;
     text-transform:capitalize;
     color:white;
-    font-size: 2rem;
+    font-size:1.7rem;
     padding:.5rem 0;
 }
 .login-container .form-control .box{
     width: 100%;
-    padding:1rem;
+    padding:0.8rem 1rem;
     margin: 0.6rem 0;
     border-radius: .5rem;
     border: .01rem solid var(--dark);
