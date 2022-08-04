@@ -357,6 +357,7 @@ section{
     color: var(--main-color);
 }
 .login-container .form-control{
+    position:fixed;
     width:35rem;
     margin: 2rem;
     padding: 1.5rem 2rem;
